@@ -6,4 +6,19 @@ h1 {
 main {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div-p {
+  font-size: 14px;
+}
+
+ul.ul-test {
+  display: block;
+  list-style: none;
+}
+
+ul > li{
+  color: #921010;
 }
